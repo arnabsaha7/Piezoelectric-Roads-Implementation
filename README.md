@@ -105,7 +105,7 @@ The logistic regression model predicts the success of piezoelectric road impleme
 8. **Line Chart**: Shows actual vs. predicted implementation costs over the test set indices.
 9. **Feature Importance Bar Plot**: Displays the importance of each feature in predicting the implementation cost.
 
-   <img src="images/line_chart.png" alt="Line Chart" width="300"> <img src="images/feature_importance.png" alt="Feature Importance Bar Plot" width="300">
+   <img src="images/line_chart.png" alt="Line Chart" width="300"> <img src="images/predsuccess.png" alt="Predicted Success Rate" width="300">
 
 ## Results
 
