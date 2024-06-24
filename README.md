@@ -90,22 +90,22 @@ The logistic regression model predicts the success of piezoelectric road impleme
 2. **Distribution of Success Variable**: Visualizes the distribution of the target variable (`Success`).
 3. **Pairplot**: Illustrates relationships between different features.
 
-   <img src="images/correlation_heatmap.png" alt="Correlation Heatmap" width="300"> <img src="images/distribution_success.png" alt="Distribution of Success Variable" width="300"> <img src="images/pairplot.png" alt="Pairplot" width="300">
+   <img src="images/correlation_heatmap.png" alt="Correlation Heatmap" height="300" width="300"> <img src="images/distribution_success.png" alt="Distribution of Success Variable"  height="300" width="300"> <img src="images/pairplot.png" alt="Pairplot"  height="300" width="300">
 
 4. **Count Plots**: Displays distributions of categorical features by success.
 5. **Box Plots**: Shows distributions of numerical features by success.
 
-   <img src="images/count_plot.png" alt="Count Plot" width="300"> <img src="images/box_plot.png" alt="Box Plot" width="300">
+   <img src="images/count_plot.png" alt="Count Plot"  height="300" width="300"> <img src="images/box_plot.png" alt="Box Plot"  height="300" width="300">
 
 6. **ROC Curve**: Visualizes the true positive rate versus the false positive rate.
 7. **Confusion Matrix**: Displays the model's performance in terms of true positives, true negatives, false positives, and false negatives.
 
-   <img src="images/roc_curve.png" alt="ROC Curve" width="300"> <img src="images/confusion_matrix.png" alt="Confusion Matrix" width="300">
+   <img src="images/roc_curve.png" alt="ROC Curve" height="300"  width="300"> <img src="images/confusion_matrix.png" alt="Confusion Matrix"  height="300" width="300">
 
 8. **Line Chart**: Shows actual vs. predicted implementation costs over the test set indices.
 9. **Feature Importance Bar Plot**: Displays the importance of each feature in predicting the implementation cost.
 
-   <img src="images/line_chart.png" alt="Line Chart" width="300"> <img src="images/predsuccess.png" alt="Predicted Success Rate" width="300">
+   <img src="images/line_chart.png" alt="Line Chart" height="300"  width="300"> <img src="images/predsuccess.png" alt="Predicted Success Rate" height="300" width="300">
 
 ## Results
 
