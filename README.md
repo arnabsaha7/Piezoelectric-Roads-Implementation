@@ -18,7 +18,13 @@ Piezoelectric materials generate electric charge in response to mechanical stres
 
 ## Dataset
 
-The dataset used in this project includes columns related to energy generation potential, efficiency, durability, and various limitations and considerations.
+The dataset used in this project includes columns related to energy generation potential, efficiency, durability, and various limitations and considerations. The dataset is a generated synthetic data with high-grade prompting and feature engineering.
+
+```txt
+data/generated_data.csv      #----->  main dataset
+data/future_data.csv         #----->  small generated data to make further predictions
+data/scores.csv              #----->  Performance scores of all models
+```
 
 ## Installation
 
