@@ -1,0 +1,10 @@
+Metric,Logistic Regression,SVC,KNN,Decision Tree,Random Forest,Gradient Boosting,AdaBoost,Bagging,XGBoost
+Validation Accuracy,0.7467,0.6967,0.6967,1.0,0.99,1.0,1.0,1.0,1.0
+Validation F1 Score,0.8304,0.8212,0.8212,1.0,0.9929,1.0,1.0,1.0,1.0
+Validation ROC AUC,0.6538,0.5,0.5,1.0,0.9835,1.0,1.0,1.0,1.0
+Test Accuracy,0.7067,0.7133,0.7133,1.0,0.9933,1.0,1.0,1.0,1.0
+Test F1 Score,0.8136,0.8327,0.8327,1.0,0.9953,1.0,1.0,1.0,1.0
+Test ROC AUC,0.5649,0.5,0.5,1.0,0.9884,1.0,1.0,1.0,1.0
+Training Accuracy,1.0,0.9561,0.6858,1.0,1.0,1.0,1.0,1.0,1.0
+Training F1 Score,0.8304,0.8212,0.8212,1.0,0.9929,1.0,1.0,1.0,1.0
+Training ROC AUC,0.6538,0.5,0.5,1.0,0.9835,1.0,1.0,1.0,1.0
