@@ -135,7 +135,7 @@ Various classification models are trained and evaluated on the dataset. The mode
 - XGBoost
 - CatBoost
 
-![Training and Evaluation](images/scores_table.png)
+![Training and Evaluation](images/training.png)
 
 ### 6. Results
 
@@ -152,7 +152,7 @@ The project demonstrates the potential of using piezoelectric materials in roads
 
 This section highlights the potential future predictions and insights gained from the analysis, focusing on the implementation and scalability of piezoelectric roads.
 
-![Future Predictions](images/future_predictions.png)
+![Future Predictions](images/results.png)
 
 ## Contributing
 
