@@ -108,8 +108,6 @@ df = pd.read_csv('DATA/generated_data.csv')
 
 Here, statistical analysis and visualizations of the dataset are performed to understand the distributions and relationships between different variables.
 
-![Statistical Analysis](images/statistical_analysis.png)
-
 ### 3. Data Preprocessing
 
 Data preprocessing steps such as handling missing values, encoding categorical variables, and scaling are conducted in this section.
