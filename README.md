@@ -28,7 +28,7 @@ data/scores.csv              #----->  Performance scores of all models
 
 ## Installation
 
-To run the notebook, you need to have Python and Jupyter Notebook installed. You can install the required libraries using the following commands:
+To run the notebook, you need to have Python3 and Jupyter Notebook installed. You can install the required libraries using the following commands:
 
 ```bash
 pip install -r requirements.txt
