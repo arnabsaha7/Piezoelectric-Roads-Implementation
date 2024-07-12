@@ -9,6 +9,8 @@ This repository contains the code and analysis for the project on implementing p
 - [Installation](#installation)
 - [Notebook Structure](#notebook-structure)
 - [Results](#results)
+- [Environmental Impact](#environmental-impact)
+- [Future Predictions](#future-predictions)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -107,7 +109,7 @@ warnings.filterwarnings('ignore')
 This section involves loading the dataset and performing initial data exploration.
 
 ```python
-df = pd.read_csv('DATA/generated_data.csv')
+df = pd.read_csv('data/generated_data.csv')
 ```
 
 ### 2. Statistical Analysis
@@ -158,6 +160,20 @@ This section highlights the potential future predictions and insights gained fro
 
 ![Future Predictions](images/results.png)
 
+## Environmental Impact
+
+To understand the broader implications, we analyze the environmental impact of implementing piezoelectric roads across different countries.
+
+### Proportion of Successful Projects by Country
+
+![Successful Projects Proportions](images/country_success.png)
+
+### Environmental Impact by Country
+
+The following chart illustrates the environmental impact measured by average CO2 reduction and energy savings:
+
+![Environmental Impact](images/environmental_impact.png)
+
 ## Contributing
 
 Contributions are welcome! Please read the [contributing guidelines](CONTRIBUTING.md) for more details.
@@ -165,3 +181,4 @@ Contributions are welcome! Please read the [contributing guidelines](CONTRIBUTIN
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
