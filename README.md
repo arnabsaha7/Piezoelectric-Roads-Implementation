@@ -2,17 +2,6 @@
 
 This repository contains the code and analysis for the project on implementing piezoelectric roads. The objective of this project is to analyze the potential of piezoelectric materials in road surfaces for generating electricity through vehicular traffic.
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Dataset](#dataset)
-- [Installation](#installation)
-- [Notebook Structure](#notebook-structure)
-- [Results](#results)
-- [Environmental Impact](#environmental-impact)
-- [Future Predictions](#future-predictions)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -58,59 +47,9 @@ The notebook is organized into several sections:
 
 In this section, all necessary libraries are imported.
 
-```python
-# Basic libraries
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-
-# Scikit-learn utilities
-from sklearn.feature_selection import SelectKBest, f_classif
-from sklearn.model_selection import train_test_split, GridSearchCV
-from sklearn.preprocessing import StandardScaler, PolynomialFeatures, LabelEncoder
-from sklearn.impute import SimpleImputer
-from sklearn.compose import ColumnTransformer
-from sklearn.pipeline import Pipeline
-from sklearn.utils import shuffle
-from imblearn.over_sampling import SMOTE
-from sklearn.decomposition import PCA
-from sklearn.exceptions import NotFittedError
-
-# Classification models
-from sklearn.linear_model import LogisticRegression, SGDClassifier
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.ensemble import (
-    RandomForestClassifier, GradientBoostingClassifier, AdaBoostClassifier, BaggingClassifier
-)
-from sklearn.svm import SVC
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.naive_bayes import GaussianNB
-from xgboost import XGBClassifier
-from catboost import CatBoostClassifier
-
-# Metrics
-from sklearn.metrics import (
-    accuracy_score, confusion_matrix, classification_report, precision_score, recall_score, f1_score, roc_curve, auc, roc_auc_score
-)
-
-# Encoders
-from category_encoders import BinaryEncoder, TargetEncoder, OneHotEncoder
-
-# Additional imports (if required)
-import random
-import joblib
-import warnings
-warnings.filterwarnings('ignore')
-```
-
 ### 1. Data Loading
 
 This section involves loading the dataset and performing initial data exploration.
-
-```python
-df = pd.read_csv('data/generated_data.csv')
-```
 
 ### 2. Statistical Analysis
 
